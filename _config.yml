@@ -266,7 +266,7 @@ compress_html:
   ignore:
     envs: development
 
-comments:
+comments: 
     provider: "disqus"
     disqus:
         shortname: ktgon
