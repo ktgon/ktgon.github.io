@@ -20,7 +20,7 @@ title                    : "Simple Tips"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "ktgon"
-description              : "C/C++" 
+description              : "Programmer" 
 url                      : "https://ktgon.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "ktgon"
   avatar           : "/assets/images/ktgon.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "C/C++"
+  bio              : "Programmer"
   location         : "Seoul, Korea"
   email            : "ktgon4dev@gmail.com"
   links:
@@ -279,3 +279,14 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false

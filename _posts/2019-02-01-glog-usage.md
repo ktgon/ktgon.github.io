@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: glog 사용
 published: true
 categories: cpp
