@@ -2,7 +2,7 @@
 title: glog 사용
 published: true
 categories: cpp
-tags: glog
+tags: c++ glog
 ---
 
 #### 환경 
