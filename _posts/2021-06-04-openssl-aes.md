@@ -8,11 +8,15 @@ tags: openssl aes-256-cbc base64
 ### 1. Base64 
 
 - encode  
-  echo 명령에서 -n 옵션은 LF(LineFeed) 제거 
+  echo 명령에서 -n 옵션은 LF(LineFeed) 제거  
+  windows 에서는 "echo | set -p=" 을 사용  
 
 ```bash
 > echo -n 'this is a raw string.' | openssl enc -base64 -e 
 dGhpcyBpcyBhIHJhdyBzdHJpbmcu
+
+# windows command  
+> echo | set -p=this is a raw string.| openssl enc -base64 -e 
 ```
 - decode  
   base64 decoding 시에는 echo 명령에서 -n 옵션은 제외할 것.  
