@@ -53,7 +53,8 @@ OuterClass.InnerClass innerObject = outerObject.new InnerClass();
 
 ### 4. Static Nested Classes  
 - Class method와 variable와 같이 static nested class는 outer class와 연계되어 있다.  
-- Static class method처럼 static nested class는 enclosing class에 정의되어있는 instance variables나 methods를 직접 참조할 수 없다. : 오직 object reference를 통해서만 가능하다. 
+- Static class method처럼 static nested class는 enclosing class에 정의되어있는 instance variables나 methods를 직접 참조할 수 없다.  
+: 오직 object reference를 통해서만 가능하다.  
 - Static nested class는 결과적으로 다른 top-level class에 있는 top-level class처럼 동작한다.  
 - Static nested class는 top-level class와 같은 방식으로 초기화된다.  
 
@@ -178,7 +179,7 @@ the parameter in the method methodInFirstLevel
 - method methodInFirstLevel의 parameter로 정의된 x는 FirstLevel의 변수를 shadow한다. 
 - 결과적으로 method methodInFirstLevel안에서 변수x를 사용할 때 method parameter를 참조한다. 
 inner class FirstLevel의 member 변수를 참조하기 위해서는 enclosing scope를 나타내는 this 키워드를 사용한다. 
-- 클래스 명을 사용하여 더 큰 scope에 있는 member variable을 참조한다. 
+- 클래스 명을 사용하여 더 큰 scope에 있는 member variable을 참조한다.  
 예를 들어, 다음 statement는 class의 member variable을 접근한다. 
 System.out.println("ShadowTest.this.x = " + ShadowTest.this.x);
 
