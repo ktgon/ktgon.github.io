@@ -21,7 +21,6 @@ class OuterClass {
 - Nested class 는 다음과 같이 두 종류로 나눌 수 있다.  
 Non-static nested class (inner class 라고 한다.)  
 static nested class   
-
 - Nested class 는 enclosing class의 멤버이다.  
 - Non-static nested class (inner class) 는 enclosing class의 다른 멤버들(private 으로 선언되었다 하더라도)에 대한 접근 권한을 가진다.
 - OuterClass의 멤버로써 nested class 는 private, public, protected, package private 으로 선언될 수 있다. (OuterClass는 public 이나 package private 으로만 선언가능하다.)  
@@ -54,7 +53,7 @@ OuterClass.InnerClass innerObject = outerObject.new InnerClass();
 ### 4. Static Nested Classes  
 - Class method와 variable와 같이 static nested class는 outer class와 연계되어 있다.  
 - Static class method처럼 static nested class는 enclosing class에 정의되어있는 instance variables나 methods를 직접 참조할 수 없다.  
-: 오직 object reference를 통해서만 가능하다.  
+오직 object reference를 통해서만 가능하다.  
 - Static nested class는 결과적으로 다른 top-level class에 있는 top-level class처럼 동작한다.  
 - Static nested class는 top-level class와 같은 방식으로 초기화된다.  
 
