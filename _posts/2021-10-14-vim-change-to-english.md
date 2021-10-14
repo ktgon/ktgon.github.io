@@ -1,5 +1,5 @@
 ---
-title: In vim, change language to english when type escape key 
+title: In vim, change language layout to english when type escape key 
 published: true
 categories: vim, neovim
 tags: vim, hammerspoon, neovim
