@@ -15,12 +15,12 @@ vim에서 한글 입력중 normal mode로 변경했을 때 명령을 입력하�
 처음 배울 때는 그러려니 했는데 쓸수록 불편하여 방법을 찾아보았다.  
 
 ### 2. 해결 방법  
-- [hammperspoon](https://www.hammerspoon.org) 이라는 앱을 사용하였다. 
+- [hammperspoon](https://www.hammerspoon.org) 이라는 앱을 사용하였다.  
 hammerspoon은 이벤트를 후킹하여 원하는 액션을 수행한다.  
 이벤트와 수행할 액션은 lua 로 작성된 init.lua 스크립트 파일에 정의한다.  
 
 - init.lua 파일  
-아래와 같이 작성한다.  
+hammerspoon을 설치 후 'Open Config' 를 클릭하여 설정 파일을 연 후 아래와 같이 작성한다.  
 
 ```lua
 local inputEnglish = "com.apple.keylayout.US"
