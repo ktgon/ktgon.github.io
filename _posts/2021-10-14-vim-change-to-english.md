@@ -7,7 +7,7 @@ tags: vim, hammerspoon, neovim
 
 ### 1. 개요    
 - 환경  
-OS: OSX 
+OS: OSX  
 VIM: Neovim 0.5  
 
 - 문제점  
@@ -21,6 +21,7 @@ hammerspoon은 이벤트를 후킹하여 원하는 액션을 수행한다.
 
 - init.lua 파일  
 아래와 같이 작성한다.  
+
 ```lua
 local inputEnglish = "com.apple.keylayout.US"
 
